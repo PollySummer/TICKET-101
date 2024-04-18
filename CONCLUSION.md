@@ -10,7 +10,7 @@
 ## Disadvantages
 * LoanPeriod shows 6 months instead of 12 months. The image is attached below.
 
-![6 moths bug]([images/img_6_months.png](https://github.com/PollySummer/TICKET-101/blob/master/images/img_6_months.png))
+![6 moths bug](https://github.com/PollySummer/TICKET-101/blob/master/images/img_6_months.png)
 
 * The next bug that I found and fixed was: "Another exception was thrown: Incorrect use of ParentDataWidget". It shows in console every time when I changed screen size.
 It was found in <b> main.dart </b> file. 
