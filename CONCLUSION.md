@@ -1,12 +1,16 @@
 # Conclusion about TICKET-101
 ## Advantages
-<i>To be honest, I haven't worked with Flutter and Dart before, so I've highlighted such pros that are important in every programming language and are common.</i>
-
+* Short and clear comments;
+* Try-catch for handling possible errors;
+* Clear variable and file names;
+* Handling user errors, e.g. when isikukood is shorter than 11 digits or it is entered in an incorrect format;
+* Adaptation for phones and tablets;
+* The code is structured into separate files and classes, promoting code organization and reusability.
 
 ## Disadvantages
 * LoanPeriod shows 6 months instead of 12 months. The image is attached below.
 
-![6 moths bug](images/img_6_months.png)
+![6 moths bug]([images/img_6_months.png](https://github.com/PollySummer/TICKET-101/blob/master/images/img_6_months.png))
 
 * The next bug that I found and fixed was: "Another exception was thrown: Incorrect use of ParentDataWidget". It shows in console every time when I changed screen size.
 It was found in <b> main.dart </b> file. 
