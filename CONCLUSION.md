@@ -30,3 +30,5 @@ I added SingleChildScrollView and wrapped in Expanded, this helped avoid overflo
 * And also "Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation.". Was recomendation from VS code, so I added it in the main.dart and loan_form.dart
 
 That's all the disadvatages I found and fixed.
+
+<i>To be honest, I don't have much experience with Flutter and Dart, so my notes may seem general for all programming languages, but I tried to find as many pros and cons as possible.</i>
