@@ -22,6 +22,7 @@ I removed the Expanded widget from the SizedBox and directly set the height of t
 * The next one is "Another exception was thrown: A RenderFlex overflowed by 44 pixels on the bottom." In <b>loan_form.dart</b> file.
   
 <b>Solution:</b>
+
 I added SingleChildScrollView and wrapped in Expanded, this helped avoid overflow.
 
 * And also "Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation.". Was recomendation from VS code, so I added it in the main.dart and loan_form.dart
